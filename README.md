@@ -5,13 +5,13 @@
 
 標準入力から読み込んだ整数値を素因数分解する．
 
-'''bash
+```bash
 $ echo "100" | ./PrimeFactorization.py
-'''
+```
 
-'''text
+```text
 $ [2, 2, 5, 5]'
-'''
+```
 
 ## 必要なソフトウェア
 - Python
