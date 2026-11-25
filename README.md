@@ -1,16 +1,31 @@
 # 2026年度ロボットシステム学　課題1
 ![test](https://github.com/YuIshida0108/robosys2026_assignments01/actions/workflows/test.yml/badge.svg)
+[![test](https://github.com/YuISHIDA0108/robosys2026_assignments01/actions/workflows/test.yml/badge.svg)](https://github.com/YuISHIDA0108/robosys2026_assignments01/actions/workflows/test.yml)
 
 このリポジトリはロボットシステム学の課題1提出用のリポジトリです．
 
-標準入力から読み込んだ整数値を素因数分解する．
+標準入力から読み込んだ2以上の整数を素因数分解します．
+
+## 使用方法
+`PrimeFactorization.py`と`test.bash`はshebangを記載しているため，実行権限を付与してから実行してください．
 
 ```bash
-$ echo "100" | ./PrimeFactorization.py
+chmod +x PrimeFactorization.py test.bash
+echo "100" | ./PrimeFactorization.py
+```
+
+出力例:
+```text
+[2, 2, 5, 5]
+```
+
+テストを実行する場合:
+```bash
+./test.bash
 ```
 
 ```text
-$ [2, 2, 5, 5]'
+OK
 ```
 
 ## 必要なソフトウェア
