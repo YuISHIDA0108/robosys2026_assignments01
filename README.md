@@ -1,10 +1,17 @@
 # 2026年度ロボットシステム学　課題1
 ![test](https://github.com/YuIshida0108/robosys2026_assignments01/actions/workflows/test.yml/badge.svg)
+
 このリポジトリはロボットシステム学の課題1提出用のリポジトリです．
 
 標準入力から読み込んだ整数値を素因数分解する．
-'$ echo "100" | ./PrimeFactorization.py'
-'$ [2, 2, 5, 5]'
+
+'''bash
+$ echo "100" | ./PrimeFactorization.py
+'''
+
+'''text
+$ [2, 2, 5, 5]'
+'''
 
 ## 必要なソフトウェア
 - Python
