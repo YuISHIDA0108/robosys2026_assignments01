@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: BSD-3-Clause
 import sys
 
-inputNum = int(sys.stdin.readline())
+inputNum = int(sys.argv[1])
 num = inputNum
 primeNum = []
 i = 2

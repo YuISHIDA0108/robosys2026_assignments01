@@ -9,7 +9,7 @@ ng () {
 
 res=0
 
-out=$(echo "100" | ./PrimeFactorization.py)
+out=$(./prime_factorization.py 100)
 [ "${out}" = "[2, 2, 5, 5]" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
