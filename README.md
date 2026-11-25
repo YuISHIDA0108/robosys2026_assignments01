@@ -1,6 +1,5 @@
 # 2026年度ロボットシステム学　課題1
-![test](https://github.com/YuIshida0108/robosys2026_assignments01/actions/workflows/test.yml/badge.svg)
-[![test](https://github.com/YuISHIDA0108/robosys2026_assignments01/actions/workflows/test.yml/badge.svg)](https://github.com/YuISHIDA0108/robosys2026_assignments01/actions/workflows/test.yml)
+![test](https://github.com/YuISHIDA0108/robosys2026_assignments01/actions/workflows/test.yml/badge.svg)
 
 このリポジトリはロボットシステム学の課題1提出用のリポジトリです．
 
@@ -33,7 +32,7 @@ OK
   - テスト済みバージョン: 3.10～3.14
 
 ## テスト環境
-- Ubuntu 24.02 LTS
+- Ubuntu 24.04 LTS
 
 ## ライセンス
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
